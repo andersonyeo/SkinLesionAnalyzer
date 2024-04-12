@@ -39,8 +39,8 @@ $("#image-selector").change(function () {
 let model;
 (async function () {
 	
-	model = await tf.loadModel('http://skin.test.woza.work/model_kaggle_version12/model.json');
-	$("#selected-image").attr("src", "http://skin.test.woza.work/assets/samplepic.jpg")
+	model = await tf.loadModel('https://andersonyeo.github.io/SkinLesionAnalyzer/model_kaggle_version12/model.json');
+	$("#selected-image").attr("src", "https://andersonyeo.github.io/SkinLesionAnalyzer/assets/samplepic.jpg")
 	
 	
 	// Simulate a click on the predict button
